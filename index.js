@@ -1,8 +1,8 @@
 'use strict';
 
 var util = require('util');
-var Undertaker = require('undertaker');
-var vfs = require('vinyl-fs');
+var Undertaker = require('./src/undertaker/index');
+var vfs = require('./src/vinyl-fs/index');
 var watch = require('glob-watcher');
 
 function Gulp() {
